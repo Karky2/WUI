@@ -1,0 +1,65 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+/* Main styles */
+main {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+section {
+	flex: 1;
+	margin: 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+.one{
+	display: flex;
+	
+}
+
+/* Footer

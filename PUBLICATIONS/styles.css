@@ -1,0 +1,409 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+  }
+.body{
+    background-color: #f5f5f5;
+  }
+  
+header {
+    background-color: #07050f;
+    padding: 20px;
+    margin:0 10px;
+    border-radius: 10px;
+   
+
+  }
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+nav ul li:hover {
+    background-color: #6b93e1;
+    cursor: pointer;
+
+  }
+  
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  
+main {
+    padding: 20px;
+  }
+
+.main h1{
+    font-size: 70px;
+    padding: 170px;
+    text-align: center;
+    
+}
+.main p{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+  
+footer {
+    background-color: #07050f;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+
+.one{
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    position: absolute;
+    left: 17%;
+    padding: 4px;
+    margin: 15px;
+    font-size: 20px;
+}
+.two{
+  display: flex;
+  flex-direction: column;
+  top: 62%;
+  position: absolute;
+  left: 17%;
+  padding: 4px;
+  margin: 15px;
+  font-size: 20px;
+}
+.three{
+  display: flex;
+  flex-direction: column;
+  top: 93%;
+  position: absolute;
+  left: 17%;
+  padding: 4px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.four{
+  display: flex;
+  flex-direction: column;
+  top: 125%;
+  position: absolute;
+  left: 17%;
+  padding: 4px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.five{
+  display: flex;
+  flex-direction: column;
+  top: 157%;
+  position: absolute;
+  left: 17%;
+  font-size: 20px;
+  padding: 4px;
+  margin: 15px;
+}
+.one a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 0;
+  position: absolute;
+  left: 330%;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+.two a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 0;
+  position: absolute;
+  left: 330%;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+.three a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 0;
+  position: absolute;
+  left: 330%;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+.four a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 0;
+  position: absolute;
+  left: 330%;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+.five a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 0;
+  position: absolute;
+  left: 330%;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+
+
+
+
+.first, .second, .third, .fourth, .fifth{
+  border: 1px solid;
+  margin: 5px;
+  height: 590px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+}
+.first p, .second p, .third p, .fourth p, .fifth p{
+  font-size: 20px;
+  font-weight:normal;
+}
+.first h3{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.first h4{
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 40%;
+  left: 40%
+}
+.second h3{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 115%;
+  left: 40%;
+}
+.second h4{
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 124%;
+  left: 40%
+}
+.third h3{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 198%;
+  left: 40%;
+}
+.third h4{
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 207%;
+  left: 40%
+}
+.fourth h3{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 283%;
+  left: 40%;
+}
+.fourth h4{
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 292%;
+  left: 40%
+}
+.fifth h3{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 367%;
+  left: 40%;
+}
+.fifth h4{
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 376%;
+  left: 40%
+}
+.first a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 91%;
+  position: absolute;
+  left: 44%;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+
+}
+.first a:hover{
+ background-color: black;
+  padding: 10px;
+}
+.second a:hover{
+  background-color: black;
+   padding: 10px;
+ }
+ .third a:hover{
+  background-color: black;
+   padding: 10px;
+ }
+ .fourth a:hover{
+  background-color: black;
+   padding: 10px;
+ }
+ .fifth a:hover{
+  background-color: black;
+   padding: 10px;
+ }
+.second a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 175%;
+  position: absolute;
+  left: 44%;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+.third a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 259%;
+  position: absolute;
+  left: 44%;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+
+}
+.fourth a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 343%;
+  position: absolute;
+  left: 44%;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+.fifth a{
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  border: 1px solid;
+  top: 426%;
+  position: absolute;
+  left: 44%;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(83, 116, 214);
+  color: whitesmoke;
+}
+.first p{
+  padding: 10px;
+}
+
+
+.second p{
+  padding: 10px;
+}
+
+img{
+  padding: 15px;
+}
+.second h4, .third h4, .fourth h4, .fifth h4{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+span{
+  font-size: 20px;
+  font-weight: bolder;
+}

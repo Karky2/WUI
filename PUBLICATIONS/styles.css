@@ -398,7 +398,7 @@ footer {
 img{
   padding: 15px;
 }
-.second h4, .third h4, .fourth h4, .fifth h4{
+.first h4, .second h4, .third h4, .fourth h4, .fifth h4{
   font-size: 25px;
   font-weight: bold;
 }
@@ -406,4 +406,9 @@ img{
 span{
   font-size: 20px;
   font-weight: bolder;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Decrease the font size for smaller screens */
+  }
 }
